@@ -1,3 +1,18 @@
+.root {
+  --logo-one-color:  #4D5AE5;
+  --background-color:  #2E2F42;
+  --main-font-color:  #434455;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--iris);
+  background-color: var(--navy-blue-color);
+}
+
+
+
+
 .list {
   list-style: none;
 }
@@ -190,3 +205,8 @@ border: none;
   color: #E7E9FC;
 
 }
+
+
+
+
+
