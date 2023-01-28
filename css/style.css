@@ -23,7 +23,7 @@ body {
   text-decoration: none;
 }
 
-.current {
+.menu-link.current {
   color: var(--ocean-color)
 }
 
