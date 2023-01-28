@@ -23,9 +23,7 @@ body {
   text-decoration: none;
 }
 
-.menu-link.current {
-  color: var(--ocean-color)
-}
+
 
 /*--logo-one--*/
 .logo-one {
@@ -63,6 +61,14 @@ body {
   letter-spacing: 0.02em;
   color: #2E2F42;
 }
+.menu-link:hover,
+.menu-link:focus {
+color: #404BBF;
+}
+
+.menu-link.current {
+ color: #404BBF
+}
 
 /*--address--*/
 .address {
@@ -79,6 +85,9 @@ body {
   color: #434455;
 
 }
+.email-link:is(:hover, :focus) {
+  color: #404BBF;
+}
 
 /*--phone-number*/
 .phone-number {
@@ -89,10 +98,10 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.email-link:is(:hover, :focus) {
-  color: #404BBF;
+.phone-number:is(:hover, :focus) {
+  color: #404BBF
 }
+
 
 
 /*--page-header--*/
