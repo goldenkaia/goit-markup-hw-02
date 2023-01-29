@@ -1,7 +1,8 @@
-.root {
+:root {
   --navy-blue-color: #2E2F42;
   --body-background-color: #ffffff;
-  --cornflower-color: #E7E9FC --slate-color: #434455;
+  --cornflower-color: #E7E9FC; 
+  --slate-color: #434455;
   --iris-color: #4D5AE5;
   --cloud-color: #F4F4FD;
   --ocean-color: #404BBF;
